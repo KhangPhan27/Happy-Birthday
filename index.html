@@ -5,6 +5,8 @@
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<title>Yeu em</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+	<body id="bd">
 	<div class="card">
 		<div class="imgBox">
 			<div class="bark"></div>
@@ -34,6 +36,7 @@
 	  background: #FDE3A7; /*CAPE HONEY*/
 		margin: 0px;
 		padding: 0px;
+		display:none;
 	}
 	
 	::selection {
@@ -150,8 +153,14 @@
 		text-align: right;
 	}
 	</style>
- </head>
- <body>
-	
+
+
+	<script>
+		window.onload = function()
+{
+    load = document.getElementById("bd");
+	load.style.display = "block"
+};
+	</script>
  </body>
  </html>
