@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Yeu em</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+	<body>
+		<div id="preloader">
+			<div class="spinner">
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+			</div>
+			</div>
+	<div class="card">
+		<div class="imgBox">
+			<div class="bark"></div>
+			<img src="happy.jpg">
+		</div>
+		<div class="wrapper">
+			<!-- Preloader -->
+			
+		<div class="details">
+			<h4 class="color1">KhangPhan yeu em</h2>
+			<h4 class="color2 margin">(HAPPY BIRTHDAY)</h3>
+			<p>Chào em!</p>
+			<p>Rất vui khi có em trong cuộc đời  </p>
+			<p>của anh. Cảm ơn em vì tất cả những  </p>
+			<p>điều tuyệt vời em đã làm cho anh. </p>
+			<p>Có thể ngày này mang lại cho em</p>
+			<p>rất nhiều niềm vui và hạnh phúc bởi </p>
+			<p>vì em xứng đáng với tất cả điều này.</p>
+			<p>Chúc mừng sinh nhật tình yêu của anh! </p>
+			<p class="text-right">Yêu em</p>
+			<p class="text-right">NhuY<3</p>
+		</div>
+	</div>
+    <script>
+        function loader(){
+            let load = document.getElementById("preloader");
+            let card = document.querySelector(".card")
+            load.style.display = "none"
+            card.style.animation="card 2s forwards"
+        }
+        window.onload = function()
+    {
+        loader()
+    };
+        </script>
+     </body>
+     </html>
